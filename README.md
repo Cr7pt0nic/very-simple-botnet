@@ -10,3 +10,18 @@ Python 3.11.2 - 3.11.4 (As long as you have the latest version)
 
 ```pip install multithreading```
 
+## Usage
+
+Modify "client.py" on line 104 and 105
+
+python
+```py
+    server_ip = "CHANGE THIS" # Change C2 IP Address here
+    server_port = 4242 # This is where you put the C2 (Command & Control server) port here
+```
+
+Modify "server.py" on line 98 and 99
+```py
+    server_ip = "CHANGE THIS" # change this to the C2 IP Address
+    server_port = 4242 # Change this to the C2 Port
+```
