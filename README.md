@@ -25,3 +25,21 @@ Modify "server.py" on line 98 and 99
     server_ip = "CHANGE THIS" # change this to the C2 IP Address
     server_port = 4242 # Change this to the C2 Port
 ```
+
+Run the "server.py" on your VPS server or your test environment
+```sh
+python3 server.py
+```
+
+Run the "client.py" on your client device or system
+```sh
+python3 client.py
+```
+
+You also have the option to compile the client.py script as well using pyinstaller
+
+```sh
+pip3 install pyinstaller
+pyinstaller --onefile client.py --noconsole
+```
+
