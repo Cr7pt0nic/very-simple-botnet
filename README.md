@@ -13,8 +13,6 @@ Python 3.11.2 - 3.11.4 (As long as you have the latest version)
 ## Usage
 
 Modify "client.py" on line 104 and 105
-
-python
 ```py
     server_ip = "CHANGE THIS" # Change C2 IP Address here
     server_port = 4242 # This is where you put the C2 (Command & Control server) port here
